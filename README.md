@@ -1,7 +1,7 @@
-## Final Capstone Project: Hospital Outcome Predictor
+## Final Capstone Project: Length of Stay Hospital Outcome Predictor
  **Samantha Turner**
 ### Synopsis
-This project creates a Hospital Outcome Predictor using the MIMIC-III Clinical Database Demo, which contains clinical data for 100 ICU patients. The project predicts:
+This project creates a Length of Stay Hospital Outcome Predictor using the MIMIC-III Clinical Database Demo, which contains clinical data for 100 ICU patients. The project predicts:
 <br>**Length of Stay:** number of days the patient is in the hospital
 <br>**Mortality Risk:** probability of patient death during their hospital stay
 ### Dataset Used
