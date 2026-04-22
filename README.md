@@ -19,15 +19,15 @@ This project creates a Length of Stay Hospital Outcome Predictor using the MIMIC
 
 **Data Preparation:**
 - Dataset merged by subject_id
-- Final dataset: age, gender, mean, count, length of stay, mortality
+- Final dataset: age, gender, mean, count, diagnosis, length of stay, mortality
 - Outliers clipped (1st-99th percentile) & missing values filled by median
 - Data split into training/testing sets & normalized for modeling
 ### Models
 **Linear Regression (OLS):** baseline model for length of stay
-<br> **Neural Network (100 -> 32 -> 1, ReLU, MSE, Adam, 50 epochs)**: comparsion model for length of stay
-<br>**Logistic Regression (BFGS):** mortality prediction, optimized threshold from  Youden's Index 
+<br> **Neural Network (100 -> 32 -> 1, ReLU, MSE, Adam, 50 epochs)**: comparison model for length of stay
+<br>**Logistic Regression (BFGS):** mortality prediction, optimized threshold from Youden's Index 
 ### Evaluation Metrics
-**Length of Stay:** Root Mean Squared Error (RMSE) calulated for baseline mean model, OLS regression, & Neural network
+**Length of Stay:** Root Mean Squared Error (RMSE) calculated for baseline mean model, OLS regression, & Neural network
 <br>**Mortality:** Accuracy, Area Under Curve(AUC), and Confusion Matrix
 ### Running the Code
 python3 --version
@@ -37,7 +37,7 @@ python3 --version
 <br>run files: main.py -> models1.py -> graphs1.py -> app.py
 <br>streamlit run streamapp.py
 ### Streamlit App
-The app allows users to input age and gender to generate predictions for length of stay and mortality risk. It provides sample patient predictions, evalution metric, and visuals of model perform on training and testing data.
+The app allows users to input age and gender to generate predictions for hospital length of stay and mortality risk using random samples from real lab testing data. It provides sample patient predictions, evaluation metrics, and visuals of model performance on training and testing data.
 ### Video Presentation
 
 ### Reference
