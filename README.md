@@ -23,7 +23,7 @@ This project creates a Length of Stay Hospital Outcome Predictor using the MIMIC
 - Outliers clipped (1st-99th percentile) & missing values filled by median
 - Data split into training/testing sets & normalized for modeling
 ### Models
-**Linear Regression (OLS):** baseline model for length of stay
+**Linear Regression (OLS):** main model used for length of stay
 <br> **Neural Network (100 -> 32 -> 1, ReLU, MSE, Adam, 50 epochs)**: comparison model for length of stay
 <br>**Logistic Regression (BFGS):** mortality prediction, optimized threshold from Youden's Index 
 ### Evaluation Metrics
