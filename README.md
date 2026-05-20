@@ -35,7 +35,7 @@ python3 --version
 <br>source venv/bin/activate
 <br>pip install pandas numpy matplotlib seaborn statsmodels scikit-learn torch streamlit
 <br>run files: main1.py -> models1.py -> graphs.py -> app.py
-<br>streamlit run streamapp.py
+<br>streamlit run app.py
 ### Streamlit App
 The app allows users to input age and gender to generate predictions for hospital length of stay and mortality risk using random samples from real lab testing data. It provides sample patient predictions, evaluation metrics, and visuals of model performance on training and testing data.
 ### Video Presentation
